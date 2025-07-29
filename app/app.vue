@@ -1,7 +1,8 @@
 <template>
   <div>
+    <NuxtPwaAssets />
     <NuxtRouteAnnouncer />
     <NuxtWelcome />
-    <VitePwaManifest />
+    <!-- <VitePwaManifest /> -->
   </div>
 </template>
