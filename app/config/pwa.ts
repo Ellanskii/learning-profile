@@ -2,7 +2,7 @@ import type { ModuleOptions } from '@vite-pwa/nuxt';
 import process from 'node:process';
 import { appDescription, appShortName, appName } from '../constants/index';
 
-const scope = '/learning-profile/';
+const scope = process.env.NUXT_APP_BASE_URL || '/';
 
 export const pwa: ModuleOptions = {
   registerType: 'autoUpdate',
