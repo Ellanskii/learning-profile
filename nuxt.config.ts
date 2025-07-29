@@ -9,6 +9,10 @@ export default defineNuxtConfig({
     '@nuxt/test-utils', 
     '@vite-pwa/nuxt',
   ],
+
+  css: ['~/assets/css/main.css'],
+
   pwa,
+  
   ssr: false,
 });
