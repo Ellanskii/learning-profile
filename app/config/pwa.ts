@@ -15,6 +15,15 @@ export const pwa: ModuleOptions = {
     short_name: appShortName,
     description: appDescription,
     theme_color: '#ffffff',
+    display: 'standalone',
+    screenshots: [
+      {
+        src: 'desktop1.png',
+        type: 'image/png',
+        sizes: '1240x600',
+        form_factor: 'wide',
+      },
+    ],
     icons: [
       {
         src: 'pwa-192x192.png',
