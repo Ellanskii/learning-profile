@@ -10,7 +10,7 @@ export const pwa: ModuleOptions = {
   base: scope,
   manifest: {
     id: scope,
-    scope,
+    scope: scope,
     name: appName,
     short_name: appShortName,
     description: appDescription,
