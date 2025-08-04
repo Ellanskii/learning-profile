@@ -51,8 +51,8 @@ export const pwa: ModuleOptions = {
   },
   workbox: {
     globPatterns: ['**/*.{js,css,html,txt,png,ico,svg}'],
-    navigateFallbackDenylist: [/^\/api\//],
-    navigateFallback: '/',
+    // navigateFallbackDenylist: [/^\/api\//],
+    navigateFallback: '/learning-profile/',
     cleanupOutdatedCaches: true,
     runtimeCaching: [
       {
