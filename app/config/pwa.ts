@@ -14,7 +14,7 @@ export const pwa: ModuleOptions = {
     name: appName,
     short_name: appShortName,
     description: appDescription,
-    start_url: '/learning-profile/',
+    start_url: scope,
     theme_color: '#ffffff',
     display: 'standalone',
     screenshots: [
@@ -53,7 +53,7 @@ export const pwa: ModuleOptions = {
   workbox: {
     globPatterns: ['**/*.{js,css,html,txt,png,ico,svg}'],
     // navigateFallbackDenylist: [/^\/api\//],
-    navigateFallback: '/learning-profile/',
+    navigateFallback: scope,
     cleanupOutdatedCaches: true,
     runtimeCaching: [
       {
