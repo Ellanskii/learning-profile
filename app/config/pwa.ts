@@ -26,7 +26,7 @@ export const pwa: ModuleOptions = {
       {
         src: 'mobile1.png',
         type: 'image/png',
-        sizes: '375x667',
+        sizes: '375x657',
         form_factor: 'narrow',
       },
     ],
