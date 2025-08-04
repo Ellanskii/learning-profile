@@ -14,6 +14,7 @@ export const pwa: ModuleOptions = {
     name: appName,
     short_name: appShortName,
     description: appDescription,
+    start_url: '/learning-profile/',
     theme_color: '#ffffff',
     display: 'standalone',
     screenshots: [
