@@ -23,6 +23,12 @@ export const pwa: ModuleOptions = {
         sizes: '1240x600',
         form_factor: 'wide',
       },
+      {
+        src: 'mobile1.png',
+        type: 'image/png',
+        sizes: '375x667',
+        form_factor: 'narrow',
+      },
     ],
     icons: [
       {
